@@ -1,0 +1,29 @@
+/* src/LandingPage.css */
+.landing-page {
+  background: url("../../assets/background.gif") center center/cover no-repeat;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  color: #ffffff; /* Adjust text color for better visibility */
+}
+
+.center-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff; /* Example button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.center-button:hover {
+  background-color: #0056b3; /* Example button color on hover */
+}
