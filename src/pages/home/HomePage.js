@@ -11,12 +11,6 @@ const HomePage = () => {
     return (
         <>
             <Cowboy />
-            {/* <div className="app">
-                <Header />
-                <Card name="Grand theft auto" date="20.02.2019" onPlay={handlePlayClick} />
-                <GameCard name="Grand theft auto" date="20.02.2019" onPlay={handlePlayClick} />
-                <Footer />
-            </div> */}
         </>
     );
 };
