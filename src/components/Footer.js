@@ -63,8 +63,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="shape" />
-            <div className="shape1" /> */}
+             <div className="shape" />
+           <div className="shape1" />
         </footer>
     );
 }

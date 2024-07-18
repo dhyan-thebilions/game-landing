@@ -82,7 +82,7 @@ const GamePage = () => {
                 style={{
                     width: "100%",
                     height: "100%",
-                    // visibility: isLoaded ? "visible" : "hidden",
+                    display: isLoaded ? "block" : "none",
                 }}
                 devicePixelRatio={devicePixelRatio}
             />

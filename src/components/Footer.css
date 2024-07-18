@@ -257,7 +257,16 @@
   font-size: 18px;
 }
 .shape {
-  height: 208.9px;
+  background-repeat: no-repeat !important;
+  box-sizing: border-box;
+  background: url("../assets/shape.svg");
+  height: 200px;
+  width: 220.9px;
+  transform: rotate(-180.1deg);
+  right: 5px;
+  position: absolute;
+
+  /* height: 208.9px;
   width: 241.3px;
   position: absolute;
   margin: 0 !important;
@@ -265,27 +274,25 @@
   bottom: -295.43px;
   border-radius: 50%;
   border: 0 solid rgba(255, 255, 255, 0.2);
-  transform: rotate(-63.1deg);
+  
   transform-origin: 0 0;
-  z-index: 1;
+  z-index: 1; */
 }
-.shape,
+/* .shape,
 .shape1,
 .signup {
   box-sizing: border-box;
-}
+ 
+} */
 .shape1 {
-  height: 181.6px;
-  width: 201.9px;
+  background-repeat: no-repeat !important;
+  box-sizing: border-box;
+  background: url("../assets/shape.svg");
+  height: 200px;
+  width: 220.9px;
   position: absolute;
-  margin: 0 !important;
-  top: -48.28px;
-  left: -44.92px;
-  border-radius: 50%;
-  border: 0 solid rgba(255, 255, 255, 0.2);
-  transform: rotate(50.8deg);
-  transform-origin: 0 0;
-  z-index: 1;
+  top: -15px;
+  left: 0px;
 }
 .signup {
   align-self: stretch;

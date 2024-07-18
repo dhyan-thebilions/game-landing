@@ -3,9 +3,6 @@ import './Loading.css';
 
 const Loading = ({ progress }) => {
     return (
-        // <div>
-        //     hello
-        // </div>
         <div className="loading-container">
             <div className="background-image"></div>
             <div className="overlay">
